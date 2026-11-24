@@ -1,0 +1,26 @@
+transaction_id,date,description,payee,amount,channel
+TX001,2026-01-05 10:32:00,Salary credit,ABC Technologies,75000,NEFT
+TX002,2026-01-06 19:20:00,Grocery payment,FreshMart,2450,CARD
+TX003,2026-01-08 13:12:00,Electricity bill,EB Electricity,3200,UPI
+TX004,2026-01-15 18:40:00,Fuel payment,IndianOil,2800,CARD
+TX005,2026-02-05 10:30:00,Salary credit,ABC Technologies,75000,NEFT
+TX006,2026-02-07 19:15:00,Grocery payment,FreshMart,3100,CARD
+TX007,2026-02-10 12:45:00,Electricity bill,EB Electricity,2950,UPI
+TX008,2026-02-18 17:50:00,Fuel payment,IndianOil,3200,CARD
+TX009,2026-03-05 10:28:00,Salary credit,ABC Technologies,75000,NEFT
+TX010,2026-03-07 18:55:00,Grocery payment,FreshMart,2750,CARD
+TX011,2026-03-12 11:20:00,Electricity bill,EB Electricity,3050,UPI
+TX012,2026-03-20 17:45:00,Fuel payment,IndianOil,2900,CARD
+TX013,2026-04-05 10:35:00,Salary credit,ABC Technologies,75000,NEFT
+TX014,2026-04-08 19:05:00,Grocery payment,FreshMart,3600,CARD
+TX015,2026-04-15 12:10:00,Electricity bill,EB Electricity,3150,UPI
+TX016,2026-04-22 18:25:00,Fuel payment,IndianOil,3400,CARD
+TX017,2026-05-05 10:31:00,Salary credit,ABC Technologies,75000,NEFT
+TX018,2026-05-08 19:10:00,Grocery payment,FreshMart,2900,CARD
+TX019,2026-05-12 02:14:00,International transfer,Zeta Traders,85000,IMPS
+TX020,2026-05-12 02:21:00,International transfer,Zeta Traders,72000,IMPS
+TX021,2026-05-12 02:38:00,International transfer,Zeta Traders,65000,IMPS
+TX022,2026-05-15 13:30:00,Electricity bill,EB Electricity,3100,UPI
+TX023,2026-05-20 18:15:00,Fuel payment,IndianOil,3300,CARD
+TX024,2026-06-05 10:29:00,Salary credit,ABC Technologies,75000,NEFT
+TX025,2026-06-08 19:25:00,Grocery payment,FreshMart,2800,CARD

@@ -1,0 +1,36 @@
+{
+  "rules": {
+    "LARGE_TRANSFER": {
+      "name": "Unusually Large Transfer",
+      "severity": "HIGH",
+      "description": "Transaction amount is substantially larger than the customer's typical discretionary spending.",
+      "threshold_multiplier": 10
+    },
+    "NEW_PAYEE_BURST": {
+      "name": "New Payee Burst",
+      "severity": "HIGH",
+      "description": "Three or more transactions were made to a previously unseen payee within 60 minutes.",
+      "window_minutes": 60,
+      "minimum_transactions": 3
+    },
+    "ODD_HOUR": {
+      "name": "Odd-Hour Activity",
+      "severity": "MEDIUM",
+      "description": "Transaction occurred during the defined unusual activity window.",
+      "start_hour": 0,
+      "end_hour": 6
+    },
+    "PATTERN_DEVIATION": {
+      "name": "Customer Pattern Deviation",
+      "severity": "MEDIUM",
+      "description": "Transaction amount substantially differs from the customer's established spending pattern.",
+      "threshold_multiplier": 10
+    }
+  },
+  "investigation_priority": {
+    "HIGH": 25,
+    "MEDIUM": 15,
+    "multiple_rule_bonus": 15,
+    "maximum_score": 100
+  }
+}
